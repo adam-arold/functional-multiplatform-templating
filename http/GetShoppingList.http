@@ -1,0 +1,3 @@
+GET http://localhost:9090/shoppingList
+Content-Type: application/json
+###
