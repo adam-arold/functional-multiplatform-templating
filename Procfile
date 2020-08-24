@@ -1,1 +1,1 @@
-web: ./build/install/shoppinglist/bin/shoppinglist
+web: ./build/install/functional-multiplatform-templating/bin/functional-multiplatform-templating

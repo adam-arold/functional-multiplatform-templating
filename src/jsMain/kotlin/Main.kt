@@ -1,9 +1,8 @@
-import react.child
-import react.dom.render
-import kotlin.browser.document
+import _03_layouts.Homepage
+import _02_partials.HomepageParams
 
 fun main() {
-    render(document.getElementById("root")) {
-        child(App)
-    }
+    val homepage = Homepage().render(HomepageParams("title"))
+
+    println(homepage)
 }
