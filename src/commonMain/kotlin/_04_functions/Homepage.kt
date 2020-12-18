@@ -2,7 +2,7 @@ package _04_functions
 
 import kotlinx.html.*
 
-val homepage: TemplateBuilder<List<Item>> = _05_extras.template { items ->
+val homepage: TemplateBuilder<List<Item>> = template { items ->
     div {
         ul {
             items.forEach { item ->
